@@ -1,0 +1,429 @@
+{
+  "home_assistant": {
+    "arch": "aarch64",
+    "dev": false,
+    "docker": true,
+    "hassio": false,
+    "installation_type": "Home Assistant Container",
+    "os_name": "Linux",
+    "os_version": "7.0.8",
+    "python_version": "3.14.6",
+    "timezone": "Europe/Berlin",
+    "version": "2026.10.1",
+    "virtualenv": false,
+    "container_arch": "aarch64",
+    "run_as_root": true
+  },
+  "custom_components": {
+    "hacs": {
+      "documentation": "https://hacs.xyz/docs/use/",
+      "version": "2.0.5",
+      "requirements": [
+        "aiogithubapi>=22.10.1"
+      ]
+    },
+    "localtuya": {
+      "documentation": "https://github.com/rospogrigio/localtuya/",
+      "version": "5.2.3",
+      "requirements": []
+    }
+  },
+  "integration_manifest": {
+    "domain": "localtuya",
+    "name": "LocalTuya integration",
+    "codeowners": [
+      "rospogrigio",
+      "postlund"
+    ],
+    "config_flow": true,
+    "dependencies": [],
+    "documentation": "https://github.com/rospogrigio/localtuya/",
+    "iot_class": "local_push",
+    "issue_tracker": "https://github.com/rospogrigio/localtuya/issues",
+    "requirements": [],
+    "version": "5.2.3",
+    "is_built_in": false,
+    "overwrites_built_in": false
+  },
+  "setup_times": {
+    "null": {
+      "setup": 0.01532473800034495
+    },
+    "01M50V1QB4SS3SBZPMME4AM2V6": {
+      "config_entry_setup": 0.7131928830003744
+    }
+  },
+  "data": {
+    "client_id": "khr...cvd",
+    "client_secret": "3a1...4d3",
+    "devices": {},
+    "no_cloud": false,
+    "region": "eu",
+    "updated_at": "1792103647645",
+    "user_id": "eu1...SFR",
+    "username": "localtuya",
+    "cloud_devices": {
+      "bf1a4c5k0yp385ng": {
+        "active_time": 1792107739,
+        "biz_type": 18,
+        "category": "dj",
+        "create_time": 1772920920,
+        "icon": "smart/icon/bay1631668232508k2y6/38f80d032d7f7b205aae69e452d47e10.png",
+        "id": "bf1a4c5k0yp385ng",
+        "ip": "",
+        "lat": "",
+        "local_key": "222...587",
+        "lon": "",
+        "model": "",
+        "name": "E14C 23",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "nd7hx8wy",
+        "product_name": "E14C",
+        "status": [
+          {
+            "code": "switch_led",
+            "value": false
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1792107739,
+        "uuid": "uuid90385760dd10"
+      },
+      "bf79fb0qunbwhl3k": {
+        "active_time": 1792107738,
+        "biz_type": 18,
+        "category": "dj",
+        "create_time": 1787050512,
+        "icon": "smart/icon/bay1631668232508k2y6/38f80d032d7f7b205aae69e452d47e10.png",
+        "id": "bf79fb0qunbwhl3k",
+        "ip": "",
+        "lat": "",
+        "local_key": "9A1...7BC",
+        "lon": "",
+        "model": "",
+        "name": "E14C 22",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "nd7hx8wy",
+        "product_name": "E14C",
+        "status": [
+          {
+            "code": "switch_led",
+            "value": false
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1792107738,
+        "uuid": "uuid8a7cf21fbfc3"
+      },
+      "bfbce3h89bg1v2vu": {
+        "active_time": 1792102250,
+        "biz_type": 18,
+        "category": "dj",
+        "create_time": 1772921181,
+        "icon": "smart/icon/bay1631668232508k2y6/8f53b93c829f2886a34f7b0bb8fe06a2.png",
+        "id": "bfbce3h89bg1v2vu",
+        "ip": "",
+        "lat": "",
+        "local_key": "E04...CBE",
+        "lon": "",
+        "model": "",
+        "name": "GYiOTBULBGU10 11",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "7ahgamgv",
+        "product_name": "GYiOTBULBGU10",
+        "status": [
+          {
+            "code": "switch_led",
+            "value": false
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1792102250,
+        "uuid": "uuid57323268d3e8"
+      },
+      "bfd3dcpx0ag5mqnj": {
+        "active_time": 1792102250,
+        "biz_type": 18,
+        "category": "dj",
+        "create_time": 1772921178,
+        "icon": "smart/icon/bay1631668232508k2y6/8f53b93c829f2886a34f7b0bb8fe06a2.png",
+        "id": "bfd3dcpx0ag5mqnj",
+        "ip": "",
+        "lat": "",
+        "local_key": "8CB...955",
+        "lon": "",
+        "model": "",
+        "name": "GYiOTBULBGU10 11",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "7ahgamgv",
+        "product_name": "GYiOTBULBGU10",
+        "status": [
+          {
+            "code": "switch_led",
+            "value": false
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1792102250,
+        "uuid": "uuidcf499a31d35c"
+      },
+      "bf44cb1enzk2sftd": {
+        "active_time": 1792102249,
+        "biz_type": 18,
+        "category": "dj",
+        "create_time": 1772921179,
+        "icon": "smart/icon/bay1631668232508k2y6/8f53b93c829f2886a34f7b0bb8fe06a2.png",
+        "id": "bf44cb1enzk2sftd",
+        "ip": "",
+        "lat": "",
+        "local_key": "C2B...55B",
+        "lon": "",
+        "model": "",
+        "name": "GYiOTBULBGU10 9",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "7ahgamgv",
+        "product_name": "GYiOTBULBGU10",
+        "status": [
+          {
+            "code": "switch_led",
+            "value": false
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1792102249,
+        "uuid": "uuid485d14e71810"
+      },
+      "bfb155vdj7dijll9": {
+        "active_time": 1792102249,
+        "biz_type": 18,
+        "category": "dj",
+        "create_time": 1772921176,
+        "icon": "smart/icon/bay1631668232508k2y6/8f53b93c829f2886a34f7b0bb8fe06a2.png",
+        "id": "bfb155vdj7dijll9",
+        "ip": "",
+        "lat": "",
+        "local_key": "B65...AB5",
+        "lon": "",
+        "model": "",
+        "name": "GYiOTBULBGU10 9",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "7ahgamgv",
+        "product_name": "GYiOTBULBGU10",
+        "status": [
+          {
+            "code": "switch_led",
+            "value": false
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1792102249,
+        "uuid": "uuidd61a0cfd36e4"
+      },
+      "bf9ca8le6ujmsvx4": {
+        "active_time": 1792102249,
+        "biz_type": 18,
+        "category": "dj",
+        "create_time": 1772921318,
+        "icon": "smart/icon/bay1631668232508k2y6/8f53b93c829f2886a34f7b0bb8fe06a2.png",
+        "id": "bf9ca8le6ujmsvx4",
+        "ip": "",
+        "lat": "",
+        "local_key": "016...D2F",
+        "lon": "",
+        "model": "",
+        "name": "GYiOTBULBGU10 10",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "7ahgamgv",
+        "product_name": "GYiOTBULBGU10",
+        "status": [
+          {
+            "code": "switch_led",
+            "value": false
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1792102249,
+        "uuid": "uuid357e52b52188"
+      },
+      "bf9c55dgpb0phktp": {
+        "active_time": 1787050596,
+        "biz_type": 18,
+        "category": "dj",
+        "create_time": 1787050596,
+        "icon": "smart/icon/bay1631668232508k2y6/38f80d032d7f7b205aae69e452d47e10.png",
+        "id": "bf9c55dgpb0phktp",
+        "ip": "",
+        "lat": "",
+        "local_key": "183...62F",
+        "lon": "",
+        "model": "",
+        "name": "E14C 21",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "nd7hx8wy",
+        "product_name": "E14C",
+        "status": [
+          {
+            "code": "switch_led",
+            "value": false
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1787050596,
+        "uuid": "uuida0e6ee22ea9d"
+      },
+      "bf50f4dsxiscxblj": {
+        "active_time": 1786650374,
+        "biz_type": 18,
+        "category": "dj",
+        "create_time": 1772920887,
+        "icon": "smart/icon/bay1631668232508k2y6/38f80d032d7f7b205aae69e452d47e10.png",
+        "id": "bf50f4dsxiscxblj",
+        "ip": "",
+        "lat": "",
+        "local_key": "2FD...C48",
+        "lon": "",
+        "model": "",
+        "name": "E14C 19",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "nd7hx8wy",
+        "product_name": "E14C",
+        "status": [
+          {
+            "code": "switch_led",
+            "value": false
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1786650374,
+        "uuid": "uuid771025c9d5b7"
+      },
+      "bffe794jhwh3ug3y": {
+        "active_time": 1786650374,
+        "biz_type": 18,
+        "category": "dj",
+        "create_time": 1772920887,
+        "icon": "smart/icon/bay1631668232508k2y6/38f80d032d7f7b205aae69e452d47e10.png",
+        "id": "bffe794jhwh3ug3y",
+        "ip": "",
+        "lat": "",
+        "local_key": "A1B...FF7",
+        "lon": "",
+        "model": "",
+        "name": "E14C 18",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "nd7hx8wy",
+        "product_name": "E14C",
+        "status": [
+          {
+            "code": "switch_led",
+            "value": false
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1786650374,
+        "uuid": "uuidc979332c6d96"
+      },
+      "bfcb4fq026cehwv2": {
+        "active_time": 1786650371,
+        "biz_type": 18,
+        "category": "dj",
+        "create_time": 1772920887,
+        "icon": "smart/icon/bay1631668232508k2y6/38f80d032d7f7b205aae69e452d47e10.png",
+        "id": "bfcb4fq026cehwv2",
+        "ip": "",
+        "lat": "",
+        "local_key": "6F5...C3F",
+        "lon": "",
+        "model": "",
+        "name": "E14C 16",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "nd7hx8wy",
+        "product_name": "E14C",
+        "status": [
+          {
+            "code": "switch_led",
+            "value": false
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1786650371,
+        "uuid": "uuid4061f3956565"
+      },
+      "bfa67650c33f8cd070t0ph": {
+        "active_time": 1782461979,
+        "biz_type": 18,
+        "category": "fs",
+        "create_time": 1782461979,
+        "icon": "smart/icon/ay1560561202971zKi1E/682ae7b8213cc96315cf96ab9953d0fa.png",
+        "id": "bfa67650c33f8cd070t0ph",
+        "ip": "84.132.113.56",
+        "lat": "48.14",
+        "local_key": "N?F...3t$",
+        "lon": "11.44",
+        "model": "\u7184\u5c4f-\u81ea\u52a8\u6863-\u58f0\u97f3\u5f00\u5173-BRANDSON",
+        "name": "Ventilator",
+        "online": false,
+        "owner_id": "278794320",
+        "product_id": "8yxnkegycpds3zay",
+        "product_name": "Fan",
+        "status": [
+          {
+            "code": "switch",
+            "value": false
+          },
+          {
+            "code": "countdown",
+            "value": "0"
+          },
+          {
+            "code": "fan_beep",
+            "value": true
+          },
+          {
+            "code": "temp_current",
+            "value": 28
+          }
+        ],
+        "sub": false,
+        "time_zone": "+02:00",
+        "uid": "eu17729207148991aSFR",
+        "update_time": 1786002858,
+        "uuid": "8c9735e28c571c18"
+      }
+    }
+  },
+  "issues": []
+}
